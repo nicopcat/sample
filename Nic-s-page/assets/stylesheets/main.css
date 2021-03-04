@@ -88,7 +88,7 @@ nav a:hover{
 
 section{
 /*  border-top: 2px black solid;*/
-  width: 90%;
+  width: 100%;
 }
 
 .group{
@@ -103,7 +103,7 @@ h1{
 
 h2{
   background-color: #2db34a;
-  padding: 10px;
+  padding: 2% 1% 1% 1%;
   color: white;
   margin-bottom: 6px;
 }
@@ -120,13 +120,27 @@ footer{
   background-color: #eaeaed;
 }
 img{
-  display: inline-block;
+/*  display: inline-block;*/
   padding: 25px;
-  width: 25%; 
-  height: 25%;
+  width: 15%; 
+  height: 15%;
+  transition: width 2s, height 2s, transform 2s;
+}
+#Food .group{
+  text-align: center;
+}
+#Food img{
+/*  float: left;*/
+  position: relative;
+
 
 }
 
+#Food  img:hover {
+  width: 25%;
+  height: 25%;
+  transform: rotate(360deg)
+}
 #note{
   color: gray;
   font-size: small;
@@ -143,4 +157,5 @@ footer{
   padding: 1%;
   position: relative;
   bottom: -10%;
+  clear: both;
 }
