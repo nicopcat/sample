@@ -62,36 +62,38 @@ table {
 }/*universal pseudo-elements*/
 
 body{
-  /*background-color: black;
-  color: white;*/
+  width: 100%
 }
 header, footer{
-  box-sizing: border-box;
   margin-top: 28px;
   text-align: center;
 }
-#icon{
-  border: none;
-  display: inline-block;
-  width: 20px:
-  height: 20px;
-}                                                                                             
+                                                                                   
 
 nav{
-  padding-top:20px;
-  margin-bottom: 10px;
-  display: inline-block;
+  margin: 24px 0px;
 }
-.nav{
-  padding: 0 20px;
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background: #2db34a;
+    padding: .6% 2%;
+    transition: background-color .5s;
+}
+
+nav a:hover{
+  background-color: blue;
 }
 
 section{
-  box-sizing: border-box;
-  border-top: 2px black solid;
-  width: 60%;
-  position: relative;
-  left: 20%;
+/*  border-top: 2px black solid;*/
+  width: 90%;
+
+}
+
+.group{
+  margin: 2% 4%;
 }
 
 h1{
@@ -103,45 +105,42 @@ h2{
   background-color: #2db34a;
   padding: 10px;
   color: white;
-  display: inline-block;
   margin-bottom: 6px;
 }
 
 details{
   padding: 12px;
 }
-li{
+/*li{
   text-align: center;
-}
+}*/
 
 footer{
   background-color: #eaeaed;
-  padding: 12px;
 }
 img{
-  border: 8px black dashed;
-  width: 30%; 
-  height: 30%;
+  display: inline-block;
+  padding: 25px;
+  width: 25%; 
+  height: 25%;
+
 }
-img.fav{
-  position: relative;
-  right: -35%;
-  margin: 20px 0px;
-}
+
 #note{
   color: gray;
   font-size: small;
 }
-#Achievements{
-  margin-bottom: 32px;
-}
 
 label{
-  display: inline-block;
   padding:8px 0;
 }
 #top{
-  display: inline-block;
-  position: relative;
-  left: 100%;
+ position: fixed;
+ right: 18px;
+ bottom: 3%;
+}
+
+footer{
+  padding: 1%;
+  clear: both;
 }
