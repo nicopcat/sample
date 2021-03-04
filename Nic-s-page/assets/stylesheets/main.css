@@ -123,9 +123,10 @@ img{
   padding: 25px;
   width: 25%; 
   height: 25%;
-
 }
-
+progress{
+  marging: 5px;
+}
 #note{
   color: gray;
   font-size: small;
