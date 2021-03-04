@@ -89,11 +89,11 @@ nav a:hover{
 section{
 /*  border-top: 2px black solid;*/
   width: 90%;
-
 }
 
 .group{
   margin: 2% 4%;
+
 }
 
 h1{
@@ -111,9 +111,10 @@ h2{
 details{
   padding: 12px;
 }
-/*li{
-  text-align: center;
-}*/
+
+progress, label{
+  margin: 1% 2%;
+}
 
 footer{
   background-color: #eaeaed;
@@ -123,18 +124,15 @@ img{
   padding: 25px;
   width: 25%; 
   height: 25%;
+
 }
-progress{
-  marging: 5px;
-}
+
 #note{
   color: gray;
   font-size: small;
 }
 
-label{
-  padding:8px 0;
-}
+
 #top{
  position: fixed;
  right: 18px;
@@ -143,5 +141,6 @@ label{
 
 footer{
   padding: 1%;
-  clear: both;
+  position: relative;
+  bottom: -10%;
 }
