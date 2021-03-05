@@ -116,9 +116,6 @@ progress, label{
   margin: 1% 2%;
 }
 
-footer{
-  background-color: #eaeaed;
-}
 img{
 /*  display: inline-block;*/
   padding: 25px;
@@ -154,8 +151,9 @@ img{
 }
 
 footer{
+  background-color: #eaeaed;
   padding: 1%;
-  position: relative;
-  bottom: -10%;
+  position: absolute;
+  bottom: 0;
   clear: both;
 }
